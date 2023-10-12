@@ -34,7 +34,12 @@ function App() {
         </div>
 
         <div className="content-page">
-          <h1>Post grid</h1>
+          <div className="post">Post</div>
+          <div className="post">Post</div>
+          <div className="post">Post</div>
+          <div className="post">Post</div>
+          <div className="post">Post</div>
+
           <div>
             {alertVisible && (
               <Alert onClose={() => setAlertVisibility(false)}>Alert1!</Alert>
