@@ -1,9 +1,9 @@
 function Post() {
   return (
     <div className="post">
-      <h1>Post Component</h1>
-      <div>Img here</div>
-      <div>post interactions</div>
+      <div className="heading">Post Heading</div>
+      <div className="thumbnail">Thumbnail</div>
+      <div className="post-interactions">Post interactions</div>
     </div>
   );
 }

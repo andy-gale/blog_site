@@ -1,0 +1,16 @@
+.post {
+    background: purple;
+    min-width: 250px;
+    min-height: 100% - 5px;
+    margin: 10px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.heading {
+    align-items: center;
+}
+
+.navbar {
+    font-weight: 50px;
+}
