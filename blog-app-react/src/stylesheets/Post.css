@@ -5,12 +5,22 @@
     margin: 10px;
     border-radius: 35px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading {
     align-items: center;
+    background: rgb(172, 34, 34);
+    min-height: 40px;
 }
 
-.navbar {
-    font-weight: 50px;
+.thumbnail {
+    background: blue;
+    flex: 2;
+}
+
+.post-interactions {
+    min-height: 35px;
+    flex: 1;
 }

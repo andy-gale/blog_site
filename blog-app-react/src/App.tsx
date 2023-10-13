@@ -40,6 +40,7 @@ function App() {
           <Post />
           <Post />
           <Post />
+          <Post />
           <div>
             {alertVisible && (
               <Alert onClose={() => setAlertVisibility(false)}>Alert1!</Alert>
