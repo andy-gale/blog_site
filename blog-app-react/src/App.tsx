@@ -2,6 +2,7 @@ import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
+import Post from "./components/Post";
 import { useState } from "react";
 
 function App() {
@@ -34,12 +35,11 @@ function App() {
         </div>
 
         <div className="content-page">
-          <div className="post">Post</div>
-          <div className="post">Post</div>
-          <div className="post">Post</div>
-          <div className="post">Post</div>
-          <div className="post">Post</div>
-
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
           <div>
             {alertVisible && (
               <Alert onClose={() => setAlertVisibility(false)}>Alert1!</Alert>
